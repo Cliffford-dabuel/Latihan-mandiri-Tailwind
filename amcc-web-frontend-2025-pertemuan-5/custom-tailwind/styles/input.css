@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-amikom: #452E5A;
+    --color-amikom2: #170C79;
+ }
+
+@layer components {
+    .box-ungu {
+        @apply bg-amikom size-20 m-[1cm] text-white p-4 text-2xl flex justify-center items-center rounded-2xl;
+    }
+
+    .btn {
+        @apply p-2 bg-red-500  hover:bg-red-800 text-white rounded-2xl   shadow-xl
+    }
+    }
